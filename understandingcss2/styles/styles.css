@@ -28,11 +28,11 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    footer p {
+  }
+  footer p {
       font-size: 20px;
       margin: 20px auto;
     }
-  }
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
