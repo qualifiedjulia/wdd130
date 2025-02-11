@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+:root{
+    --heading-font: "Merriweather";
+  --paragraph-font: "Sora";
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +13,8 @@ nav a{
     text-align: center;
     color: #b9d36c;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -21,6 +30,9 @@ main section{
 }
 body{
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 header{
     background-color: #286217;
@@ -38,13 +50,19 @@ nav a:hover{
 }
 .msg{
     background-color: #012F54;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #b9d36c;
     color: #286217;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #012F54;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #0A5593;
@@ -52,12 +70,20 @@ h4{
 .book, .join{
     color: #91C6F1;
     text-decoration: none;
+    font-size: 18px;
+    font-family: var(--paragraph-font);
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #0A5593;
 }
 .msg h2{
     color: #91C6F1;
 }
 .msg p{
     color: #91C6F1;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #286217;
@@ -71,6 +97,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -78,4 +105,33 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 }
-footer p a:hover {text-decoration: underline;}
+footer p a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+p {
+    font-family: var(--paragraph-font);
+}
+main h2{
+    color: #012F54;
+}
+h2 {
+    margin: 0px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #0A5593;
+}
+main section img{
+    box-sizing: border-box;
+}
