@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sora:wght@100..800&display=swap');
+
+:root{
+    --heading-font: "Rubik Mono One";
+  --paragraph-font: "Sora";
+}
+.logo {
+    width: 120px;
+    background-color: #F1406D;
+}
+header {
+    background-color: #FFB3C6;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover{
+    background-color: #13BCC2;
+    color: #B9EBE7;
+}
+nav a{
+    font-family: var(--heading-font);
+    color: #F1406D;
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    /*the line below can be discarded once you get more in depth with css*/
+    max-width: 500px;
+}
