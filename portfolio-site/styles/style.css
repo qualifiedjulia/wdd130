@@ -36,3 +36,91 @@ img {
     /*the line below can be discarded once you get more in depth with css*/
     max-width: 500px;
 }
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: #006366;
+}
+p {
+    font-family: var(--paragraph-font);
+}
+body {
+    background-color: #B9EBE7;
+}
+#welcome_about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .25fr .5fr .1fr .5fr;
+    align-items: center;
+}
+#big_logo{
+    grid-column: 1;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+}
+#welcome_about h1 {
+    align-self: center;
+    justify-self: center;
+}
+#welcome_about p {
+    background-color: #13BCC2;
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #B9EBE7;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+#featured {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: .25fr .5fr 3.5fr;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#featured h1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#featured p {
+    background-color: #F1406D;
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #B9EBE7;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#feat1 {
+    grid-column: 1/2;
+    order: 1;
+    width: 400px;
+    grid-row: 3/4;
+}
+#feat2 {
+    grid-column: 2/3;
+    order: 1;
+    height: 400px;
+    grid-row: 3/4;
+}
+#feat3 {
+    grid-column: 3/4;
+    order: 1;
+    width: 400px;
+    grid-row: 3/4;
+}
+#feat-box {
+    background-color: #13BCC2;
+    height: 450px;
+    width: 750px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    order: -1;
+}
