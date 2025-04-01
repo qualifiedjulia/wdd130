@@ -212,12 +212,19 @@ body {
     margin: 40px;
 }
 .click {
-    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
 }
 .img-click {
     width: 800px;
     margin: 50px;
     justify-self: center;
+}
+.img-click-v {
+    height: 700px;
+    justify-self: center;
+    margin-bottom: 50px;
 }
 .p-click {
     width: 600px;
