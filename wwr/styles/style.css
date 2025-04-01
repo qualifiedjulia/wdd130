@@ -200,7 +200,7 @@ nav{
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #252f3f
+    box-shadow: 5px 5px 10px #252f3f;
 }
 h3 {
     color: #012F54;
