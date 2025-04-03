@@ -414,3 +414,24 @@ input[type=text], select, textarea {
   #p2 {
     grid-row: 4/5;
   }
+  
+  /* Don't add anything below this line */
+@media screen and (max-width: 900px) {
+  body{
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  #background {
+      display: none;
+  }
+  footer {
+      margin-top: 25px;
+  }
+}
